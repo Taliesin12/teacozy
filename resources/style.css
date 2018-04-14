@@ -43,7 +43,7 @@ flex-direction: column;}
 .band {background-color: black;
   align-items: center;
   width: 100%;
-margin:0px;}
+  margin:0px;}
 
 
 .tea_month{width: 1000px;
@@ -52,14 +52,33 @@ margin:0px;}
   position: relative;
   top: 36px;}
 
-.locations{height:500px;
+.locations{display: flex;
+  flex-direction: column;
+  height:500px;
   width: 1200px;
   border: 3px solid green;
   position: relative;
-  top: 36px;}
+  top: 36px;
+  background-image: url(./images/img-locations-background.jpg);
+  justify-content: center;}
+
+h2, h4{margin: 0px;}
+
+.location_row{display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.loc_box{background-color: black;
+  height: 300px;
+  width: 300px;
+  opacity: 1;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
 
 .contact{height: 200px;
-  border: 3px solid yellow;
   position: relative;
   top: 36px;}
 
